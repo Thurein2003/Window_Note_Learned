@@ -1,0 +1,23 @@
+_______________________________
+
+|| Thu Rein Oo @ 21 Aug 2023 ||
+
+-------------------------------
+# Remove the sign out button on windows
+
+1. Open regedit
+    Win + R >> to open the registory editor
+
+2. Go to this path 
+    >> Open the Local Group Policy Editor
+        >> User Configuration > Administrative Templates > Start Menu and Taskbar
+    
+    >> HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion \Policies\Explorer
+        >> right click in the "Blank Area" and click "New"
+        >> Type: DWORD (32-bit) and need to pay value (1)
+        >> Value Name: StartMenuLogoff
+        >> and than restart the Windows
+_____________________________________________________________
+
+
+

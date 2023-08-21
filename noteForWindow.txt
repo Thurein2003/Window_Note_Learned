@@ -1,0 +1,88 @@
+|--------------------------------------------------------|
+|Written By - Thu Rein Oo--------------------------------|
+|CopyRight  - @20 Aug 2023-------------------------------|
+|Course by  - CompuTech----------------------------------|
+|--------------------------------------------------------|
+
+
+diskmgmt.msc >>> to management disk system 
+-   Diskpart /s c:\windows\system32\diskmgmt.msc >>> to management disk system (with admin privilege)
+gpedit.msc  >>> to group policy editor
+
+- Adminstrative Template >> Window Components >> Auto play policy (turn Enable) 
+    \\\ In Window configuration and User configuration
+    >> Windows Settings >> Security Settings >> Local Policies >> Computer Configuration >> Administrative Templates >> System>>AutoPlay
+
+
+services.msc >>> into the microsoft management services
+- Services : Turn off all service except for:
+
+control >>> to open control pannel >>> Windows Firewall / Turn Off the firewall
+                                       Auto Play / Pop Up box (turn off) 
+                                       User Account / User account control Settings
+
+msinfo32 >>> To checked the our PC model 
+, OS version, CPU type, RAM size, etc...
+
+winver >>> Windows version
+taskmgr >>> Task manager
+netstat -ano >>> show port status
+ipconfig/all >>> IP address information
+arp -a >>> ARP table
+dxdiag >>> Direct X Diagonstic Tool
+ncpa.cpl >>> Network cat 
+control printers >>> To control Printer
+
+appwiz.cpl >>> Application Wizard >> to delete the application 
+>>> cpl means from Control pannel
+
+_____________________________________________________________________
+
+Win + R ==>  recent   // Recent Used File //
+             prefetch // File which are open when the windows is open
+             temp     // Tempory files
+             %temp%   // Tempory Files
+
+To Delete all that files >> Shift + Delete (Force Delete)
+______________________________________________________________________
+
+    Win + R ==> cmd ==> del *.dmg, *.old, *.chk, *.tmp, *.bat /f /s
+_____________________________________________________________________
+________Meaning________
+del ==> delete files 
+.dmg ==> demaged files
+.old ==> old files
+.chk ==> checked files
+.tmp ==> tempory files
+.bat ==> batch file
+/f = force
+/s = sub folder
+_____________________________________________________________________
+
+Virtual Disk Creation 
+
+
+> Right Clikc on this PC >> go to the properties
+>> click on advanced system settings
+>> Advance >> Performance >> Settings >> Click advance in Performance Options >> Virtual Memory click "change" 
+                                      >> there have 3 options 
+                                      1. System Manage 
+                                      2. No Paging File
+                                      3. Custom
+                                      >> System Manage options is the best choice <<<
+How to Check the the Memory usage >
+ >>>>>>  Ctrl + Shift + ESC >>> Performance >>> Look Memory usage
+_______________________________________________________________________
+_______________________________________________________________________|
+|__Registory___|
+Win + R >>> regedit // to enter the registory 
+
+
+
+// Home Work 
+to learn about the Registory 
+gpedit >> Signout
+       >> regedit
+       >> cmd
+       >> run box
+________________________________________________________________________
