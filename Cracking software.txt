@@ -7,5 +7,17 @@ To install the crack version of the software
 >> Do step by steps
 
 ---------------------------------------------------------------------
+Dual Boot
 
-_
+Order of the Bootsetting
+1. HDD
+2. Cd/DVD
+3. USB
+4. Network
+____________________________________________________________________
+To change to order of the Boot system 
+> Bios setting 
+> Boot manager
+> Up the CDRom or CD/DVD with + or - key and PgUp or PgDn
+> Restart the PC
+--------------------------------------------------------------------
