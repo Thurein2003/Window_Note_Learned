@@ -1,0 +1,65 @@
+@ThuReinOo@1-Oct-2023
+
+CPU = Central Processing Unit
+MCC = memory controller chip
+RAM = Random access memory
+ZIF = Zero Insertion Force
+SIMM = Single Inline Memory Module
+
+
+1 address line ---- 2 bytes
+2 address line ---- 4 bytes
+
+
+CPU * FSB = Speed ratio
+
+--> Capable of storing more computational values, including memory address.
+--> 2^32 (32-bit) an 2^64(64-bit)
+
+|Parallel execution|
+1. Fatch
+2. Decode
+3. Execute
+4. Write
+
+Cache
+L1/L2/L3
+
+L1 = smallest an fastest
+L2 = run half the speed of CPU
+L3 = Biggest an dslowest cache
+
+Read = [Selecting and installing CPU]
+______________________________________
+
+[RAM]
+DIMM = SD RAM --> DDR 1 to 4
+
+Latency = delay in RAM response time.
+CAS = column array strobe
+
+[Mother Board/Form Factor]
+AT = advance technology
+ATX = advance technology Extended
+PCI = Peripheral Component Interconnect
+POST = Power On Self Test
+
+--PCI-> VGA(15pins)
+
+Extension Vs Expansion
+
+[Power Supplies]
+Pressure = Voltage(V)
+Volume Flowing = amperes(A)
+Work = wattage(W)
+Resistance = ohms(Ω)
+[V = IR]
+Power supplies = AC to DC
+Yellow(Fan) = 13.2V
+Red(data) = 5.5V
+Orange = 3.6V
+
+
+
+
+------------------------------------------------------------------------
